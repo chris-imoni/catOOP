@@ -43,7 +43,7 @@
       expect(junior.meows()).toBe("pis-pis-pis");
     });
 
-    it("Baja should have no 'visible breast' except it is a female dog and with pregnancy 7+ weeks", function() {
+    it("The cat should have no 'visible breast' except it is a female cat and with pregnancy 7+ weeks", function() {
       var baja  = new Cat('Baja', 'Ocelot', 12);
       expect(baja.visbreast).toBe(0);
       baja.pregnant(8);
